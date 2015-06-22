@@ -98,6 +98,9 @@ NewsTest1$SubsectionName = NewsTest$SubsectionName
 library(randomForest)
 myForest = randomForest(Popular ~., data = NewsTrain1)
 
+#make predictions on our test set:
+PredTest1 = predict(myForest, newdata=NewsTest1, type="response")
+
 #prepare our submission file for Kaggle:
 MySubmission1 = data.frame(UniqueID = NewsTest$UniqueID, Probability1 = PredTest1)
 

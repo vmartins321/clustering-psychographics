@@ -1,4 +1,4 @@
-# MachineLearning
+#Machine Learning
 A collection of side projects involving machine learning.
 
 #Contents

@@ -6,6 +6,9 @@ A collection of side projects involving machine learning.
 ##Linear Regression Elantra
 Predict future sales using historical data. Check for multicolinearity.
 
+#Logistic Regression World Series
+Predict whether a team will make it to the World Series.
+
 ##Predicting Popular Articles
 Use text analysis and random forests in R to predict which New York Times articles will be popular. Also includes text processing.
 

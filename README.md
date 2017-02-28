@@ -32,6 +32,9 @@ Introduction to Principal Component Analysis in Python
 ###Predicting House Prices
 Train a linear regression using GraphLab Create.
 
+###House Prices with Crime
+Use crime data to predict house prices (GraphLab Create linear regression.)
+
 ###Linear Regression Elantra
 Predict future sales using historical data. Check for multicolinearity.
 

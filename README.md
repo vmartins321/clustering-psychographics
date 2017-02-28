@@ -14,6 +14,13 @@ Cluster wikipedia articles using KNN and tf-idf (GraphLab Create.)
 ###Deep Features for Image Classification
 Use deep features to train a logistic classifier to recognize images as dog, cat, bird, or automobile using GraphLab Create.
 
+###Deep Features for Image Retrieval
+Use deep features and KNN to retrieve similar images (GraphLab Create.)
+
+##Recommendation
+###Song Recommender
+Create popularity-based and personalized song recommendations using GraphLab Create.
+
 ##Clustering
 ###Hierarchical Clustering Segmenting Audience
 Use hierarchical clustering to segment your audience based on surveyed characteristics including beliefs, content consumption, and competitor patronage. Also includes text processing, data cleaning, and data manipulation.

@@ -22,6 +22,9 @@ Use hierarchical clustering to segment your audience based on surveyed character
 Introduction to Principal Component Analysis in Python
 
 ##Regression
+###Predicting House Prices
+Train a linear regression using GraphLab Create.
+
 ###Linear Regression Elantra
 Predict future sales using historical data. Check for multicolinearity.
 

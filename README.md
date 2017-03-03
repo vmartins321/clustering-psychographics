@@ -28,7 +28,7 @@ Use hierarchical clustering to segment your audience based on surveyed character
 ###Hello PCA
 Introduction to Principal Component Analysis in Python
 
-##Regression
+##Classification
 ###Predicting House Prices
 Train a linear regression using GraphLab Create.
 

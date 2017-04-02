@@ -25,9 +25,6 @@ Create popularity-based and personalized song recommendations using GraphLab Cre
 ###Hierarchical Clustering Segmenting Audience
 Use hierarchical clustering to segment your audience based on surveyed characteristics including beliefs, content consumption, and competitor patronage. Also includes text processing, data cleaning, and data manipulation.
 
-###Hello PCA
-Introduction to Principal Component Analysis in Python
-
 ##Classification
 ###Predicting House Prices
 Train a linear regression using GraphLab Create.

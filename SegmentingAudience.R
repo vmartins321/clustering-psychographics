@@ -1,5 +1,5 @@
 #load survey data. name AudienceCoded.
-AudienceCoded = read.csv("./Dropbox/AJ+/Data/Surveys/AJ_Audience_Survey_Coded_Values.csv", 
+AudienceCoded = read.csv("./Dropbox/Data/Surveys/Audience_Survey_Coded_Values.csv", 
                          header = T, stringsAsFactors = F)
 
 

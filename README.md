@@ -1,54 +1,24 @@
-#Machine Learning
-A collection of side projects involving machine learning.
+# Audience Targeting in a New Market
 
-#Contents
+## Overview
 
-##Text
-###Analysing Product Sentiment
-Find the most positive reviews using GraphLab Create
+To better understand audience preferences, we develop measures of an audience member based on: 
+* Interests - Politics, Sports, Social Issues
+* Psychographics - trust the mainstream news, enjoy opinionated news, enjoy human-side of a story, discuss politics with friends, believe the news is too negative
+* Brand Consumption - Al Jazeera, Vox, Vice, Buzzfeed, Fox, CNN, Huffpost
 
-###Document Retrieval
-Cluster wikipedia articles using KNN and tf-idf (GraphLab Create.)
+We cluster on these measures to produce audience segments and analyze the segments to identify key differentiators of audience segments, a winning content strategy for each one.
 
-##Image
-###Deep Features for Image Classification
-Use deep features to train a logistic classifier to recognize images as dog, cat, bird, or automobile using GraphLab Create.
+## Methods
 
-###Deep Features for Image Retrieval
-Use deep features and KNN to retrieve similar images (GraphLab Create.)
+Hierarchical clustering
+* Minimizes intra-cluster distance, maximizes inter-cluster distance between points
+* Each pair of points is progressively nested until one cluster remains
+* Shows most divisive measures
+* Doesn’t require advanced notion of number of segments
 
-##Recommendation
-###Song Recommender
-Create popularity-based and personalized song recommendations using GraphLab Create.
+Euclidean Distance
+* The shortest distance between two points
 
-##Clustering
-###Hierarchical Clustering Segmenting Audience
-Use hierarchical clustering to segment your audience based on surveyed characteristics including beliefs, content consumption, and competitor patronage. Also includes text processing, data cleaning, and data manipulation.
-
-##Classification
-###Predicting House Prices
-Train a linear regression using GraphLab Create.
-
-###House Prices with Crime
-Use crime data to predict house prices (GraphLab Create linear regression.)
-
-###Linear Regression Elantra
-Predict future sales using historical data. Check for multicolinearity.
-
-###Logistic Regression Heart Disease
-Predict whether someone will develop heart disease. Use the sample split method. Evaluate accuracy of predictions compared to a baseball model. Assess the AUC. Vary the threshold.
-
-###Logistic Regression World Series
-Predict whether a team will make it to the World Series. Use AIC to compare quality of various models.
-
-###Random Forest Predicting Popular Articles
-Use text analysis and random forests in R to predict which New York Times articles will be popular. Also includes text processing.
-
-###Regression Tree Life Expectancy
-Predict life expectancy. Start with a linear regression and then use a tree to reduce SSE. Use parameter tuning to optimize the tree. 
-
-
-
- 
-
-
+Ward Clustering Criterion
+* At each stage distances between clusters are recomputed and dissimilarities are squared before cluster updating
